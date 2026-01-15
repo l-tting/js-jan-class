@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        This is strings in JS
+    </div>
+
+    <script>
+        //length
+        let email = "janedoe@gmail.com"
+        console.log(email.length) //17
+
+        //index
+        console.log(email[2]) //m
+
+        //charAt()
+        console.log(email.charAt(4))
+
+        //slicing
+        console.log(email.slice(2,7))
+
+        //uppercase
+       let upper = email.toUpperCase()
+       console.log(upper) // JANEDOE@GMAIL.COM
+
+       //lowercase
+       let lower = upper.toLowerCase()
+       console.log(lower) //janedoe@gmail.com
+
+       //indexof
+       console.log(email.indexOf('a')) //1
+
+       //trim
+       let str = "  abcdef .  "
+       console.log(str.trim())
+
+       //concat
+       let first_name = "Micheal"
+       let last_name = " Jordan"
+       let full_name = first_name.concat(last_name)
+       console.log(full_name) // Micheal Jordan
+
+       //replace
+       console.log(first_name.replace('M','m')) // micheal
+
+       //endsWith & startsWith
+       console.log(first_name.startsWith("Mic")) //true
+       console.log(last_name.endsWith("fan")) //false
+
+       //includes
+       console.log(first_name.includes("M"))
+
+       //split
+       let sentence = "Ann took a stroll today , she also walked her dog"
+       console.log(sentence.split(','))
+       //['Ann took a stroll today', ' she also walked her dog']
+
+       //substring
+       console.log(sentence.substring(0,15))
+       //Ann took a stro
+
+
+
+
+    </script>
+</body>
+</html>
