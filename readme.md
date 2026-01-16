@@ -87,6 +87,65 @@ TASK
 Slide 53
 
 
+       NUMERICAL OPERATIONS
+1. Addition -> +
+2. Subtraction -> -
+3. Multiplication -> *
+4. Division -> /
+5. Exponent -> ** - power
+6. Modulus -> % -> remainder after division
+7. Increment -> ++ -> add by 1
+8. Decrement -> -- -> reduce by 1
+9. Floor ->  round down to the nearest integer
+10. Ceil ->  round up to the nearest integer
+
++  -> numerical sum
+   -> concatenation
+**Polymorphism** - take more than one form
+      -> Operator overloading => 
+       
+
+       CHANGING DATA TYPES
+**Type conversion**
+   -> Conversion of data from one type to another
+   -> Done by the programmer
+   
+**Type coercion** 
+   -> Conversion of data from one type to another
+   -> Done automatically by JS
+
+
+
+       TASK
+       QUESTION ONE
+1. A variable x is initialized with the value 12.
+A program then executes the following arithmetic operations in order:
+The value of x is increased by the result of multiplying x by 3.
+From the new value of x, half of the original value of x is subtracted.
+The resulting value is then divided by 4.
+Finally, the program adds the remainder obtained when the original value of x is divided by 5.
+What is the final value of x ?
+
+
+         QUESTION TWO
+2.A variable y starts with a value of 18.
+The following arithmetic operations are applied sequentially:
+y is reduced by one-third of its original value.
+The new value of y is multiplied by 5.
+From the result, the remainder when the original value of y is divided by 4 is subtracted.
+Finally, the value is divided by 2, and the result is rounded down to the nearest whole number.
+What is the final value of y ?
+
+
+
+         QUESTION THREE
+3.A variable z is initialized to 25.
+A program performs the following arithmetic steps:
+z is increased by the square of half its original value.
+The new value of z is reduced by the remainder obtained when the original value of z is divided by 6.
+The result is then divided by 5.
+Finally, the program subtracts twice the remainder obtained when the current value of z is divided by 4.
+What is the final value of z ?
 
 
 
