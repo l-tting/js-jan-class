@@ -148,4 +148,62 @@ Finally, the program subtracts twice the remainder obtained when the current val
 What is the final value of z ?
 
 
+                JS OPERATORS
+1.Arithmetic Operators - for mathematical operations
+  -> + ,-,  / ,*, ** , %, ++ , --
+
+2.Logical Operators - perform logical operations
+   **AND --> && - returns true all only if  conditions are true
+   **OR --> || - returns true if at least one condition is true
+   **NOT --> ! - returns the opposite of a Boolean
+
+3.Comparison Operators  - used to compare values  - return True or False
+    == -> loose equality -> allows for type coercion and then subsequently compares the value   only
+    === -> strict equality -> no type coercion -> checks for both value and data type
+    != -> loose inequality 
+    !== -> strict inequality
+    >= -> greater than or equal to
+    <= -> less than or equal to
+    > -> greater than
+    < -> less than
+
+4.Assignment Operators - assign values to variables
+   = -> default assignment operator
+   += -> add and assign
+   -= -> subtract and assign
+   *= -> multiply and assign
+   /= -> divide and assign
+   **= -> raise to a number and assign
+   %= -> get the remainder and assign 
+
+
+        CONDITIONAL STATEMENTS
+-> These are structures that enable a program to make decisons based on some
+predefined condition / rules
+-> They define what happens if a condition is met or not
+-> Are enforced using if-else statements
+Syntax:
+      if(condition){
+         //if block - what happens if the condition is met
+      }else{
+        //else block - what happens if the condition is not met
+      }
+
+-> Multiple conditions: -> if - else if - else statements
+   if(condition 1){
+        //what happens if condition 1 is met
+   }else if(condition 2){
+        // what happens if condition 2 is met
+   }else if(condition 3){
+        // what happens if condition 3 is met
+   }else{
+        // what happens if no conditions are met
+   }
+
+      **Taking user input in JS**
+-> In JS we take user input using prompt()
+N/B --> any data coming from user input is always a string
+
+      TASK
+-> Slide 66
 
