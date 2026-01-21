@@ -41,12 +41,44 @@
 
          //user input in js
 
-         let x = Number(prompt("Enter a number"))
-         if (x %2 ==0){
-            console.log("Number is even")
+         // let x = Number(prompt("Enter a number"))
+         // if (x %2 ==0){
+         //    console.log("Number is even")
+         // }else{
+         //    console.log("Number is odd")
+         // }
+
+
+         // // JS conditional statements task
+                  //Q3
+         // Create a variable called year and enter the a random year. 
+         // Check if the year is a leap year or not. A leap year is a year that is
+         //  divisible by 4  not divisible by 100 or divisible  by 400.
+         let year = Number(prompt("Enter random year"))
+
+         if((year % 4 ===0) && (year%100 !==0)){
+            console.log("Leap year")
+         }else if(year%400 === 0){
+            console.log("Leap year")
          }else{
-            console.log("Number is odd")
+            console.log("Not leap")
          }
+
+                 //Q5
+         // Write a js program that checks if a variable x is between 10 and 20 (inclusive)
+         //  and if another variable y is greater than 100. If both conditions are true, 
+         //  display"Conditions met", otherwise display"Conditions not met"
+          
+         let x = Number(prompt("Enter x"))
+         let y = Number(prompt("Enter y"))
+
+         if((x>=10 && x<= 20) && (y > 100)){
+            console.log("Conditions met")
+         }else{
+            console.log("Conditions not met")
+         }
+         
+
     </script>
 </body>
 </html>

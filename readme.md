@@ -177,7 +177,7 @@ What is the final value of z ?
    %= -> get the remainder and assign 
 
 
-        CONDITIONAL STATEMENTS
+                CONDITIONAL STATEMENTS
 -> These are structures that enable a program to make decisons based on some
 predefined condition / rules
 -> They define what happens if a condition is met or not
@@ -206,4 +206,64 @@ N/B --> any data coming from user input is always a string
 
       TASK
 -> Slide 66
+q5 ,q3 ---> review 
 
+Leap year -> divisible by 4  but not by 100
+ e.g 1800, 1700
+ -> all years fully divisible by 400 are automatically leap, 1200,1600, 2000,2400
+
+
+                    DATA STRUCTURES
+-> programming structures used to hold or store more than one value
+-> we have 2 data structures in JS:
+ 1.Arrays
+ 2.Objects
+
+                   ARRAYS
+-> A data structure that can hold more than one value at a time
+-> It is equivalent to Python lists
+
+             Properties of Arrays
+1.Can hold more than one value of any data type
+2.They are ordered -> arranged and accessed by index
+     indexing is zero based - starts from 0
+     N/B:- There is no negative indexing in JS arrays
+3.They are mutable -> they can be changed or updated
+4.They have methods
+5. Values in arrays are comma separated
+ e.g let numbers = [1,2,3,4,5]
+   
+          JS OPERATIONS
+1.Accessing items in an array - indexing
+      -> Default indexing
+      -> .at() ==> allows for negative indexing
+2.Updating array values - indexing
+3.Determining no of items in an array - length
+4..slice() - Extracting a portion of an array
+         array.slice(start, end)
+
+         
+
+         TASK
+1.Conditional Statement
+        A student’s final grade is determined by their exam score (an number between 0 and 100) using the rules below:
+        If the score is 70 or above, the grade is A
+        If the score is 60 to 69, the grade is B
+        If the score is 50 to 59, the grade is C
+        If the score is 40 to 49, the grade is D
+        If the score is below 40, the grade is F
+        Task:
+        Write a JavaScript program that:
+        Stores a student’s score in a variable.
+        Uses if, else if, and else statements to determine the grade.
+        Prints the grade to the console.
+
+2. Array methods
+   Research on the following methods and find out what they do
+     .push()
+     .unshift()
+     .pop()
+     .shift()
+     .concat()
+     .includes()
+     .sort()
