@@ -242,7 +242,7 @@ Leap year -> divisible by 4  but not by 100
 4..slice() - Extracting a portion of an array
          array.slice(start, end)
 
-         
+
 
          TASK
 1.Conditional Statement
@@ -259,7 +259,7 @@ Leap year -> divisible by 4  but not by 100
         Prints the grade to the console.
 
 2. Array methods
-   Research on the following methods and find out what they do
+   Research on the following methods and find out what they do - w3schools or geeksforgeeks
      .push()
      .unshift()
      .pop()
