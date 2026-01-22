@@ -241,6 +241,19 @@ Leap year -> divisible by 4  but not by 100
 3.Determining no of items in an array - length
 4..slice() - Extracting a portion of an array
          array.slice(start, end)
+5.Adding items to an array
+    .push() - adds items at the end of an array
+    .unshift() - adds items at the begining of an array
+6.Remove items from an array
+     .pop() - removes the last element of an array
+     .shift() - removes the first element of an array
+7.Combining arrays
+     .concat() - combines arrays
+8.includes() - checks whether an item exists in an array and returns Boolean
+9.sort() - sorts an array in alphabetical order
+10.splice() - can be used to remove ,add or replace items at a specific index
+        -> splice(start, delete_count, items_to_add)
+   
 
 
 
@@ -258,12 +271,16 @@ Leap year -> divisible by 4  but not by 100
         Uses if, else if, and else statements to determine the grade.
         Prints the grade to the console.
 
+
 2. Array methods
    Research on the following methods and find out what they do - w3schools or geeksforgeeks
      .push()
      .unshift()
-     .pop()
-     .shift()
+     .pop() 
+     .shift() 
      .concat()
      .includes()
      .sort()
+
+     TASK ON ARRAYS
+slide 69 & 70
