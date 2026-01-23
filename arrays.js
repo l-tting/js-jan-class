@@ -75,3 +75,33 @@ let x = [1,2,3,[5,6,[7,8,[9,10]]]]
 console.log(x[3][2][2][1])
 
 
+//length
+
+let colors  = ['red','green','blue']
+colors[1] = 'pink'
+console.log(colors) //['red', 'pink', 'blue']
+
+let lengthOfColors = colors.length
+console.log(lengthOfColors)//3
+
+colors.pop()
+console.log(colors) //) ['red', 'pink']
+
+// Assignment 2: Extract Subarray
+// Given an array “sourceArray”, extract a subarray “extractedArray”
+//  from index 2 to index 4 using the .slice() method. Then, modify the 
+// extractedArray by replacing its elements with 'x', 'y', and 'z' using
+//  the .splice() method. Finally, display both the sourceArray and the
+//  modified extractedArray.
+
+let sourceArray = [1,2,3,4,5,6,7,8,9,10]
+
+let extractedArray = sourceArray.slice(2,5)
+console.log(extractedArray) //[3, 4, 5]
+
+extractedArray.splice(0,3,'x','y','z')
+console.log(extractedArray) //['x', 'y', 'z']
+console.log(sourceArray) //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+

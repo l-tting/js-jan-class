@@ -284,3 +284,48 @@ Leap year -> divisible by 4  but not by 100
 
      TASK ON ARRAYS
 slide 69 & 70
+
+                OBJECTS
+An object is a data structure that stores data in key -value pairs
+-> Equivalent of of dictionaries in Python
+
+          Properties of Objects
+1.Store data in key value pairs
+2.The keys are used to access the values
+3.Keys are strings 
+4.Values are of any data type
+5.They are mutable
+ 
+         Why use Objects
+1.To store correlated data
+2.To represent real world entities
+3.To store complex structured data
+
+e.g. let person = {
+    name: "Jane Doe",
+    age:25,
+    address:"123 KIMATHI ST"
+} ---> object
+
+_> an object is made up of properties
+property = key + value (key value pair)
+
+let person = ["Jane Doe" ,25, "123 KIMATHI ST"]
+       
+
+        OBJECT OPERATIONS
+1.Accessing values in objects
+   -> there are to ways of accessing values in JS objects
+    a) Dot notation
+       => used only when the keys are valid identifiers (follow variable naming rules)
+       => used when keys have no spaces
+    b) Bracket notation
+       => can access keys that have spaces
+
+
+2.Object.keys() - returns all object keys in an array
+3.Object.values() - returns all object values in an array
+4.Object.entries() - returns alll object key value pairs in an array
+
+    task on objects
+slide 75 & 76
