@@ -386,3 +386,19 @@ let company = {
 > 4 in team
 2.Change the value of:
 >Google Analytics to AWS
+
+ 
+     LOOPS
+-> control structures that enable a program to execute a task repeatedly until a condition is met
+-> repititive structures
+-> eliminates redundant work for the developer
+
+Types of Loops
+1.For Loop -> used when you have a definitive starting and ending point
+            -> has the following 3 parts:
+              initialization; condition; update
+        **initialization**
+        **condition**
+        **update**
+2. While Loop -> executes as long as the condition is true
+3. Do While -> execute at least once before cheking the condition
