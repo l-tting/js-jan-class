@@ -253,6 +253,8 @@ Leap year -> divisible by 4  but not by 100
 9.sort() - sorts an array in alphabetical order
 10.splice() - can be used to remove ,add or replace items at a specific index
         -> splice(start, delete_count, items_to_add)
+11.reverse() - changes the order of items in an array [1,2,3] -> [3,2,1]
+12. join() - used to combine array elements [1,2,3] -> 123
    
 
 
@@ -325,7 +327,62 @@ let person = ["Jane Doe" ,25, "123 KIMATHI ST"]
 
 2.Object.keys() - returns all object keys in an array
 3.Object.values() - returns all object values in an array
-4.Object.entries() - returns alll object key value pairs in an array
+4.Object.entries() - returns all object key-value pairs in an array
 
     task on objects
 slide 75 & 76
+
+      NESTED ARRAYS && OBJECTS
+
+let company = {
+  name: "TechCorp",
+  founded: 2010,
+  location: {
+    country: "Kenya",
+    city: "Nairobi",
+    address: {
+      street: "Kenyatta Avenue",
+      building: "Tech Plaza",
+      floor: 5
+    }
+  },
+  departments: [
+    {
+      name: "Engineering",
+      head: "Alice",
+      employees: [
+        { id: 1, name: "John", role: "Frontend Developer", skills: ["JavaScript", "React", "CSS"] },
+        { id: 2, name: "Sarah", role: "Backend Developer", skills: ["Python", "Django", "PostgreSQL"] }
+      ]
+    },
+    {
+      name: "Marketing",
+      head: "Bob",
+      employees: [
+        { id: 3, name: "Mike", role: "SEO Specialist", skills: ["SEO", "Google Analytics", "Content Writing"] },
+        { id: 4, name: "Jane", role: "Social Media Manager", skills: ["Facebook Ads", "Instagram", "Brand Strategy"] }
+      ]
+    }
+  ],
+  projects: [
+    {
+      title: "E-commerce Website",
+      deadline: "2025-09-30",
+      team: [1, 2] // Employee IDs
+    },
+    {
+      title: "Brand Awareness Campaign",
+      deadline: "2025-10-15",
+      team: [3, 4]
+    }
+  ]
+};
+
+1. Display the following
+> Instagram
+> PostgreSQL
+> E-commerce Website
+>Tech Plaza
+> 4 in team
+2.Change the value of:
+>Google Analytics to AWS

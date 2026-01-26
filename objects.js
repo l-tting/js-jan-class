@@ -30,3 +30,9 @@ console.log(Object.values(person)) //['Alice Kamau', 25, '123 KIMATHI ST', true,
 console.log(Object.entries(person))
 
 
+
+let my_arr= [23, "Jane", 560, ["Lesson", "Maths", {"currency" : "KES"}], 987, 76,"John"] 
+let x = String(my_arr[4]) //'987'  ['9','8','7']
+my_arr[4] = Number(x.split('').reverse().join(''))
+console.log(my_arr) //[23, 'Jane', 560, Array(3), 789, 76, 'John']
+
