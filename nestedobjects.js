@@ -42,3 +42,12 @@ let company = {
   ]
 };
 
+TASK
+// 1. Display the following
+// > Instagram
+// > PostgreSQL
+// > E-commerce Website
+// >Tech Plaza
+// > 4 in team
+// 2.Change the value of:
+// >Google Analytics to AWS
