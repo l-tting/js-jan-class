@@ -55,3 +55,7 @@ let company = {
 console.log(Object.keys(company))//['name', 'founded', 'location', 'departments', 'projects']
 console.log(company.departments[1].employees[1].skills[1]) 
 console.log(company.departments[0].employees[1].skills[2])
+
+console.log(Object.keys(company))
+
+console.log(company.location.address.building)
