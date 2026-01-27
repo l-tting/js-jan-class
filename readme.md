@@ -388,6 +388,7 @@ let company = {
 >Google Analytics to AWS
 
  
+
      LOOPS
 -> control structures that enable a program to execute a task repeatedly until a condition is met
 -> repititive structures
@@ -397,8 +398,21 @@ Types of Loops
 1.For Loop -> used when you have a definitive starting and ending point
             -> has the following 3 parts:
               initialization; condition; update
-        **initialization**
-        **condition**
-        **update**
+        **initialization** - starting point e.g printing 1 -1000 => i = 1
+        **condition** - condition that keeps the loop running -> if its no longer met, loop terminates
+        **update** - update the loop variable with each iteration => increment / decrement
+    Syntax:
+    for(let i=0 ;i<=10; i++){
+        //block of code to be executed with each iteration
+    }
 2. While Loop -> executes as long as the condition is true
+
+    while(condition){
+      //block of code
+    }
+
 3. Do While -> execute at least once before cheking the condition
+
+
+TASK 
+slide 78 & 79 
