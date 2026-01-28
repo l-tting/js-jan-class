@@ -415,4 +415,42 @@ Types of Loops
 
 
 TASK 
-slide 78 & 79 
+slide 78 & 79
+
+
+           JS FUNCTIONS
+-> A block of code meant to perform a specific task
+
+     Why use functions?
+1.Provide reusablity of code
+2.Readablity of code
+3.Code Organization 
+4.Modularity -  breaking code into smaller manageable pieces
+5.Better debugging
+    
+     Variable Scopes
+->determines the access level of a variable
+1.Global variable - can be accessed from anywhere in your program
+2.Local variable - can only be accessed within its defined scope / block
+
+     Arguments vs Parameters
+1.Argument - real values passed in place of parameters when calling a function
+2.Parameter - placeholder values passed to a function when defining it
+
+**return keyword** -> returns the result of code executed in the function and signifies the end of a function
+
+parts of a function
+1.function definition
+2.function body
+3.function call
+
+syntax:
+     function function_name(){
+          //block of code to be executed
+     }
+
+function_name() -> function call
+
+
+INTERMEDIATE TASKS
+slide 80 => question 2 -> question 14

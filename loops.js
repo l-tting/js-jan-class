@@ -23,6 +23,7 @@ for (let i=0; i < fruits.length ;i++){
 let numbers = [1,2,3,4,5,6,7,8,9,10]
 //output the even numbers in the array above 
 
+let arr = []
 for(let i=0;i < numbers.length ;i++){
     if(numbers[i]%2 === 0){
         console.log(numbers[i])
