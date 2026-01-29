@@ -39,7 +39,7 @@ while (i <= 10){
 }
 
 
-
+let variable =  10
 //do while
 let x = 1
 do{

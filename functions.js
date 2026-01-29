@@ -31,5 +31,45 @@ let height = Number(prompt("Enter height: "))
 function get_area(a,b){
     return 0.5 * a * b
 }
-let area = get_area(base, height)
-console.log(area)
+// let area = get_area(base, height)
+// console.log(area)
+
+
+// Prompt the user for a number either on a form input or the terminal. 
+// Depending on whether the number is even or odd, display  either “odd” or “even” to the user.
+//  Hint: how does an even / odd number react differently when divided by 2?
+// Once you learn functions,revisit this and write this code inside a function.
+
+
+let number = Number(prompt("Enter a number"))
+
+
+function check_even(num){
+    if(num%2==0){
+        result ="Even number"
+    }else{
+        result = "Odd number"
+    }
+    return result
+}
+
+let even = check_even(number)
+
+console.log(even)
+
+//anonymous function
+let add = function(a,b){
+    return a + b
+}
+let value = add(1,2)
+console.log(value)
+
+
+// arrow function
+let test = () => {
+    console.log("Testing anonymous functions")
+}
+
+test()
+
+

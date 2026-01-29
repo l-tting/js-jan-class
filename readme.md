@@ -259,7 +259,7 @@ Leap year -> divisible by 4  but not by 100
 
 
 
-         TASK
+         TASK 
 1.Conditional Statement
         A student’s final grade is determined by their exam score (an number between 0 and 100) using the rules below:
         If the score is 70 or above, the grade is A
@@ -454,3 +454,24 @@ function_name() -> function call
 
 INTERMEDIATE TASKS
 slide 80 => question 2 -> question 14
+
+Anonymous Functions
+  - explicitly lacks a function name ....the function is accessed via the declared variable
+Arrow Functions
+
+Type of functions
+1.Inbuilt functions - come with the programming language with already predefined tasks e.g console.log()
+2.User-defined functions - created by the programmer for tailor-made tasks.  
+
+
+
+let x = 10
+let y = 100
+let sum = x + y
+
+function add(a,b){
+  return a + b
+}
+
+let sum 1 = add(10,100)
+let sum 2 = add(1,2)
