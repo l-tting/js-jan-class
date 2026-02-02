@@ -493,3 +493,10 @@ e.g if a user enters “712345678”, the program should display “+25471234567
 
 
 break in loops - terminates a loop at a given point
+
+
+Template literals 
+ -having variables inside strings
+-> here we use backticks
+ let x  = 5
+ console.log("The number is x")
