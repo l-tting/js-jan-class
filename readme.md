@@ -492,3 +492,4 @@ e.g if a user enters “712345678”, the program should display “+25471234567
 112673893 -> 10
 
 
+break in loops - terminates a loop at a given point
