@@ -500,3 +500,10 @@ Template literals
 -> here we use backticks
  let x  = 5
  console.log("The number is x")
+
+
+ Create a new project called MyTax 
+   In the MyTax project have the following:
+     1.index.html - get a Bootstrap table
+      2.tax.js
+

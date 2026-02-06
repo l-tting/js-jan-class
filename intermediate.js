@@ -91,3 +91,60 @@ let x = 5
 console.log(`The number above is ${x}`)
 
 
+
+
+// Write a program that takes the date of birth of a person and
+// the program outputs the age in terms of years,months,days TODAY.datetime
+
+// YYYY-MM-DD
+
+let birth_date = prompt("Enter your birth date in the format: YYYY-MM-DD")
+
+//1997-08-24
+let birthdate_parts = birth_date.split('-')
+// ["1997",'08','24']
+
+let birth_year = parseInt(birthdate_parts[0])
+let birth_month = parseInt(birthdate_parts[1])
+let birth_day = parseInt(birthdate_parts[2])
+
+let current_day = 6
+let current_month = 2
+let current_year = 2026
+
+let monthdays = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+if (current_day < birth_day){
+    current_month-- //2- 1 = 1
+    current_day += monthdays[(current_month - 1 + 12) % 12] //6 += monthdays[0] = 6 + 31 =37
+}
+
+let calculated_days = current_day - birth_day // 37 - 24 = 13d
+let calculated_month
+let calculated_year
+
+
+if (current_month < birth_month){
+    calculated_month = 12 - (birth_month -current_month) //12 - (8 - 1 ) = 12 -7 = 5m
+    calculated_year = current_year - birth_year - 1 //2026 - 1997 - 1 = 28y
+}else{
+    calculated_month = current_month - birth_month
+    calculated_year = current_year - birth_year
+}
+
+
+
+console.log({"calculated_year":calculated_year,"calculated_month":calculated_month, "calculated_days":calculated_days})
+
+
+
+
+
+
+
+
+
+
+
+
+
