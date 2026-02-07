@@ -114,6 +114,7 @@ let current_year = 2026
 
 let monthdays = [31,28,31,30,31,30,31,31,30,31,30,31]
 
+//move a month behind ,borrow days for computation
 if (current_day < birth_day){
     current_month-- //2- 1 = 1
     current_day += monthdays[(current_month - 1 + 12) % 12] //6 += monthdays[0] = 6 + 31 =37
@@ -123,7 +124,7 @@ let calculated_days = current_day - birth_day // 37 - 24 = 13d
 let calculated_month
 let calculated_year
 
-
+//
 if (current_month < birth_month){
     calculated_month = 12 - (birth_month -current_month) //12 - (8 - 1 ) = 12 -7 = 5m
     calculated_year = current_year - birth_year - 1 //2026 - 1997 - 1 = 28y
